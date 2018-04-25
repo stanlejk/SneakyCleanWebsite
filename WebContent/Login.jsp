@@ -1,12 +1,26 @@
-!DOCTYPE html PUBLIC
+<!DOCTYPE html>
 <html>
 <head>
 
 </head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 	
-<title>  </title>
+<title> </title>
 
 <style>
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -31,45 +45,32 @@
   color: white;
 }
 
+
 </style>
 
 
 <body>
 
-<div class="topnav">
+	<div class="topnav">
   <a class="active" href="Home.jsp">Home</a>
   <a href="Shop.jsp">Shop</a>
   <a href="About.jsp">About</a>
   <a href="Login.jsp">Login</a>
 </div>
+	
+<strong> Login or create an account </strong>  </br>
+Registration is free and easy!  </br>
+Faster checkout					</br>
+View and track orders			</br>
+Access subscription options     </br> 
 
-	<img src="https://dqzrr9k4bjpzk.cloudfront.net/images/13298573/767588894.jpg" alt="" width="460" height="345">
-	The Standard Clean </br>
-	$19.99
+New here?                       </br>
+Already registered?             </br>
+If you already have an account with us,
 
-	<img src="https://dqzrr9k4bjpzk.cloudfront.net/images/13298573/767594013.jpg" alt="Flowers in Chania" width="460" height="345">
-	The Premium Clean </br>
-	$24.99
+please log in. </br>
 
-
-	<img src="https://dqzrr9k4bjpzk.cloudfront.net/images/13298573/767594021.jpg" alt="Flowers in Chania" width="460" height="345">
-	The Seude Clean </br>
-	$27.99
-
-
-	<img src="https://dqzrr9k4bjpzk.cloudfront.net/images/13298573/767594074.jpg" alt="Flowers in Chania" width="460" height="345">
-	The Ultimate Clean </br>
-	$32.99
-
-
-	<img src="https://dqzrr9k4bjpzk.cloudfront.net/images/13298573/767608264.jpg" alt="Flowers in Chania" width="460" height="345">
-	The Heel Clean </br>
-	$27.99
-
-
-
-
-	<strong> QUESTIONS? </strong> </br> 
+<strong> QUESTIONS? </strong> </br> 
 	<strong> COMMENTS? </strong> </br>
 	<strong> CONTACT US </strong> </br>
 
@@ -83,13 +84,9 @@
 	Subject <input type="text" name="subject" />
 	Message <input type="text" name="message" />
 
- </form>
-
-
-	
-
-
 </body>
+
+
 
 
 </html>

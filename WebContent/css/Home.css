@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+#titleContainer {
+	width: 100%;
+	text-align: center;
+	
+}
+
+#pageTitle {
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	color: #00B2FF;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+ul li {
+	width: 100px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
