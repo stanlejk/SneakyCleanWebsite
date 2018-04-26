@@ -17,10 +17,17 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    padding-top: 300;
     transform: translate(-50%, -50%);
 }
  
-
+.img {
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 400px;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -56,20 +63,21 @@
 </div>
 
 
-	<div class = "container">
-	<img src="https://static.wixstatic.com/media/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.jpg/v1/fill/w_980,h_421,al_c,q_85/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.webp" alt="Mountain View" width="460" height="345">
-	<div class="centered"> About </br>
+	<!-- <div class = "container"> -->
+	<img class="img" src="https://static.wixstatic.com/media/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.jpg/v1/fill/w_980,h_421,al_c,q_85/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.webp" alt="Mountain View" width="460" height="345">
+	<div class="centered">
+	About </br>
 	You know that feeling when your kicks aren't as clean as they used to be, and they're starting to look beaten up?</br>
 	Don't throw them away, or buy another pair! Sneaky Clean is here to provide you an affordable, quality service as a solution to keep your favorite sneakers fresh! </br> 
 	<strong> We work in 3 simple steps: </strong> </br>
 	
 	<ol> 
-    <li> Ship us your shoes! Don’t worry, we’ll cover the costs. </li>
+    <li> Ship us your shoes! Don't worry, we can cover the costs. </li>
 	<li> Our team will work hard to get your shoes as good as new! </li>
 	<li>  Your shoes will be shipped back to you, ready for wear!  </li>
 </ol>
 
-	</div>
+<!-- 	</div> -->
 	</div>
 
 
