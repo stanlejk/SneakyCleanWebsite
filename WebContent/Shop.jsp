@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/Home.css">
@@ -142,7 +143,7 @@
 		</script>
 	</head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 	
-	<title>  </title>
+	<title>Shop SneakyClean</title>
 
 	<style>
 	.topnav {
@@ -218,16 +219,55 @@
 	    text-decoration: none;
 	    cursor: pointer;
 	}
+	
+	#footerContainer {
+		padding-top: 70px;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	
+	#card {
+		width: 350px;
+		position: relative;
+		left: 50%;
+		margin-left: -175px;
+	}
+	
+	#paymentFormsPic {
+		width: 350px;
+		position: absolute;
+		left: 50%;
+		margin-left: -175px;
+		padding-bottom: 40px;
+	}
+	
 	</style>
 
 
 	<body>
-		<div class="topnav">
-		  <a class="active" href="Home.jsp">Home</a>
-		  <a href="Shop.jsp">Shop</a>
-		  <a href="About.jsp">About</a>
-		  <a href="Login.jsp">Login</a>
+		<div id="titleContainer" class="jumbotron">
+			<h1 id="pageTitle" class="display-3">SneakyClean</h1>
+			<hr class="my-4">
+			<p class="lead">Professional quality and care for your coveted shoes, from the comfort of your home.</p>
 		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navLinks" class="collapse navbar-collapse" id="navbarColor01">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="Home.jsp">HOME <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Shop.jsp">SHOP</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="About.jsp">ABOUT</a>
+					</li>
+			 	 </ul>
+			</div>
+		</nav>
 	<div class="container">
 		<div class="row">
 			<div class="col"></div>
@@ -310,17 +350,17 @@
 			<div class="col"></div>
 		</div>
 	</div>
-		<strong> QUESTIONS? </strong> </br> 
-		<strong> COMMENTS? </strong> </br>
-		<strong> CONTACT US </strong> </br>
-		We'll work our hardest to get back to you right away. </br>
-		We appreciate the love, but we'll appreciate the criticism even more! </br>
-		If there's anything we can fix, please let us know!
-		<form action="submit.html" method="GET">
-		Name <input type="text" name="name" />
-		Email <input type="text" name="email" />
-		Subject <input type="text" name="subject" />
-		Message <input type="text" name="message" />
-	 </form>
+	<div id="footerContainer">
+			<div id="card" class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+				<div class="card-body">
+					<a href="Home.jsp"><h4 class="card-title" style="font-family:'Lobster', cursive; font-size: 60px; color: #FFFFFF;">SC</h4></a>
+					<a href="Home.jsp" style="color: white" class="card-text">Home</a><br />
+					<a href="About.jsp" style="color: white" class="card-text">About</a><br />
+					<a href="Shop.jsp" style="color: white" class="card-text">Shop</a><br />
+				</div>
+			</div>
+			<p style="font-size: 10pt; color:grey">© 2018. All rights reserved. SneakyClean.</p>
+			<img id="paymentFormsPic" src="https://preview.ibb.co/mESrrx/Screen_Shot_2018_04_25_at_4_10_48_PM.png">
+		</div>
 	</body>
 </html>
