@@ -3,7 +3,10 @@
 #titleContainer {
 	width: 100%;
 	text-align: center;
-	
+	border: 0px;
+	max-height: 250px;
+	-webkit-animation: fadein 2s;
+	animation: fadein 2s;
 }
 
 #pageTitle {
@@ -24,28 +27,86 @@
 
 ul li {
 	width: 100px;
+	-webkit-animation: fadein 2s;
+	animation: fadein 2s;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+#navLinks {
+	padding-left: 40px;
+	-webkit-animation: fadein 2s;
+	animation: fadein 2s;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+#carouselExampleControls {
+	-webkit-animation: fadein 2s;
+	animation: fadein 2s;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+#infoContainer {
+	padding-top: 100px;
+	padding-left: 300px;
+	padding-right: 300px;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+#infoContainer h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	color: #00B2FF;
+	padding-top: 250px;
+	padding-bottom: 10px;
+}
+
+#infoContainer #customerSupport {
+	padding-top: 300px;
+}
+
+.homeImage {
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+}
+
+#formContainer {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#formContainer h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	color: #00B2FF;
+}
+
+#form {
+	text-align: left;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 60px;
+}
+
+.form-control {
+	width: 100%;
+}
+
+#footerContainer {
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#card {
+	width: 350px;
+	position: relative;
+	left: 50%;
+	margin-left: -175px;
+}
+
+#paymentFormsPic {
+	width: 350px;
+	position: absolute;
+	left: 50%;
+	margin-left: -175px;
+	padding-bottom: 40px;
 }
