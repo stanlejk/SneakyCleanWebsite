@@ -140,34 +140,23 @@
 				    }
 				}
 			}
+			
 		</script>
 	</head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 	
 	<title>Shop SneakyClean</title>
 
 	<style>
-	.topnav {
-	  overflow: hidden;
-	  background-color: #333;
+	
+	
+	@-webkit-keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
 	}
 	
-	.topnav a {
-	  float: left;
-	  color: #f2f2f2;
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	  font-size: 17px;
-	}
-	
-	.topnav a:hover {
-	  background-color: #ddd;
-	  color: black;
-	}
-	
-	.topnav a.active {
-	  background-color: #4CAF50;
-	  color: white;
+	@keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
 	}
 	
 	.modal {
@@ -256,10 +245,10 @@
 			</button>
 			<div id="navLinks" class="collapse navbar-collapse" id="navbarColor01">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="Home.jsp">HOME <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="Shop.jsp">SHOP</a>
 					</li>
 					<li class="nav-item">
@@ -268,7 +257,8 @@
 			 	 </ul>
 			</div>
 		</nav>
-	<div class="container">
+	<div class="container" style="-webkit-animation: fadein 2s;
+	animation: fadein 2s;">
 		<div class="row">
 			<div class="col"></div>
 			<div class="col">

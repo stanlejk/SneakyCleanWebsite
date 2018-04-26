@@ -61,6 +61,16 @@ h1 {
   color: white;
 }
 
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 #footerContainer {
 	padding-top: 750px;
 	text-align: center;
@@ -96,23 +106,22 @@ h1 {
 			</button>
 			<div id="navLinks" class="collapse navbar-collapse" id="navbarColor01">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="Home.jsp">HOME <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="Shop.jsp">SHOP</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="About.jsp">ABOUT</a>
 					</li>
 			 	 </ul>
 			</div>
 		</nav>
 
-
-	<!-- <div class = "container"> -->
 	<img class="img" src="https://static.wixstatic.com/media/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.jpg/v1/fill/w_980,h_421,al_c,q_85/1d1e70_ef20f18afa3148958a5be010919a3278~mv2.webp" alt="Mountain View" width="460" height="345">
-	<div class="centered">
+	<div style="-webkit-animation: fadein 2s;
+	animation: fadein 2s;" class="centered">
 			<h1>About</h1>
 			You know that feeling when your kicks aren't as clean as they used to be, and they're starting to look beaten up?</br>
 			Don't throw them away, or buy another pair! Sneaky Clean is here to provide you an affordable, quality service as a solution to keep your favorite sneakers fresh! </br> 
